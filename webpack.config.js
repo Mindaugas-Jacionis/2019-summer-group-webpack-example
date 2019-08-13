@@ -36,4 +36,10 @@ module.exports = {
       ignoreOrder: false,
     }),
   ],
+  devServer: {
+    port: 9000,
+    compress: true,
+    publicPath: '/',
+    historyApiFallback: true,
+  },
 };
